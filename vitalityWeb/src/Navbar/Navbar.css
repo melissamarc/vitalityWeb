@@ -1,0 +1,50 @@
+nav {
+   display: flex;
+   width: 100%;
+   height: 50px;
+   align-items: center;
+   align-self: center;
+   justify-content: space-around;
+   background-color: rgb(255, 255, 255);
+   font-family: 'Inter', sans-serif;
+   font-size: 16px;
+
+}
+
+nav a {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.caixaPesquisa {
+    width: 30%;
+    height: 18px;
+    background-color: #d9d9d9;
+    border: 1px solid #d9d9d9; 
+    border-radius: 8px ;
+    color: #cccccc
+}
+
+.downloadBotao {
+    background-color: #bbda9a;
+    border: 1px solid #bbda9a;
+    border-radius: 5px;
+    height: 20px;
+    font-size: 15px;
+    font-weight: bold;
+
+}
+
+.iconMenu {
+    background-color: transparent;
+    border: 1px solid transparent;
+}
+
+.Idioma {
+    background-color: transparent;
+    border: 1px solid transparent;
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+}
