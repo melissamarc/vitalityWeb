@@ -1,3 +1,31 @@
+body {
+    background-color:rgb(255, 255, 255);
+}
+
+/* WaveBackground.css */
+.wave-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: -1; /* Certifique-se de que está atrás do conteúdo */
+}
+
+.wave {
+  position: absolute;
+  bottom: 0;
+  width: 300px;
+  height: 300px; /* Ajuste conforme necessário */
+  background: #bbda9a;
+  border-radius: 50%;
+  opacity: 100; /* Transparência da onda */
+  transform: translateX(-5%);
+  margin-left: 70%;
+
+}
+
 .elementoPrincipal {
     display: flex;
     margin: auto;
@@ -24,6 +52,7 @@
     font-weight: bold;
     height: 25px;
     width: 70px;
+    margin-top: 10px;
 }
 
 text {
@@ -49,6 +78,11 @@ text {
     border: 1px solid white ;
     border-radius: 5px;
 
+}
+
+.textCaixa::placeholder {
+    color: #dedede;
+    padding-left: 5px;
 }
 
 .button-container {
@@ -89,3 +123,26 @@ font-weight: bold;
 color: #c3c3c3;
 
 }
+
+.botaoCadastro {
+background-color: transparent;
+color: #c3c3c3;
+font-weight: bold;
+font-size: 15px;
+border: 1px solid transparent;
+margin-top: 30px;
+}
+
+.esqueceuSenha {
+background-color: transparent;
+color: #c3c3c3;
+font-weight: bold;
+font-size: 15px;
+border: 1px solid transparent;
+margin-top: 5px;
+margin-left: 160px;
+
+}
+
+
+
