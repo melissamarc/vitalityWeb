@@ -1,0 +1,14 @@
+.content-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    height: calc(100vh - 80px); 
+    color:#47AC5D;
+  }
+  
+  .titulo {
+    
+    text-align: center;
+  }
+
+
